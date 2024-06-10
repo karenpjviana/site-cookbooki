@@ -1,0 +1,29 @@
+nav {
+  background-color: var(--cor-background);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.logo,
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  margin-right: 0.6em;
+}
+
+.links li {
+  display: flex;
+  margin-right: 1em;
+  list-style: none;
+}
+
+.links a {
+  padding: 0.1em 0.3em;
+}
+

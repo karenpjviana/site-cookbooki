@@ -1,1 +1,35 @@
+:root{
+  --cor-background: #F8F6F0;
+  --cor-primaria: #A4B570;
+  --cor-secundaria: #9a97da;
+  --cor-textos-claros: #B4B4B4;
+  --cor-textos-escuros:black;
 
+  --size-h1: 24px;
+  --size-h4: 14px;
+  --size-p: 11px;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/SpaceGrotesk-VariableFont_wght.ttf") format("trueType");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Grotesk", Arial;
+  box-sizing: border-box;
+  color: var(--cor-secundaria);
+  /* background-color: var(--cor-background); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--cor-primaria);
+}
