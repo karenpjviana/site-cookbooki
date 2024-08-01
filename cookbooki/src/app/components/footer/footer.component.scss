@@ -2,11 +2,11 @@
 
 footer {
   width: 100%;
-  color:var(--cor-primaria)
+  color:$primary-color
 }
 
 #footer-body{
-  background-color: var(--cor-primaria);
+  background-color: $primary-color;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 2rem 3.5rem;
@@ -18,7 +18,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin-bottom: 0.75rem;
-  color: var(--cor-background);
+  color: $background-color;
 }
 
 #footer-logo {

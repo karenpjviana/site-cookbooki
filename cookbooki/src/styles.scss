@@ -1,14 +1,12 @@
-:root{
-  --cor-background: #F8F6F0;
-  --cor-primaria: #A4B570;
-  --cor-secundaria: #9a97da;
-  --cor-textos-claros: #B4B4B4;
-  --cor-textos-escuros:black;
+$background-color: #F8F6F0;
+$primary-color: #A4B570;
+$secondary-color: #9a97da;
+$light-text-color: #B4B4B4;
+$dark-text-color: black;
 
-  --size-h1: 24px;
-  --size-h4: 14px;
-  --size-p: 11px;
-}
+$size-h1: 24px;
+$size-h4: 14px;
+$size-p: 11px;
 
 @font-face {
   font-family: "Space Grotesk";
@@ -20,16 +18,16 @@
   margin: 0;
   font-family: "Space Grotesk", Arial;
   box-sizing: border-box;
-  color: var(--cor-secundaria);
-  /* background-color: var(--cor-background); */
+  color: $secondary-color;
+  /* background-color: $background-color; */
 }
 
 a {
   text-decoration: none;
-  color: var(--cor-secundaria);
+  color: $secondary-color;
   transition: 0.4s;
 }
 
 a:hover {
-  color: var(--cor-primaria);
+  color: $primary-color;
 }

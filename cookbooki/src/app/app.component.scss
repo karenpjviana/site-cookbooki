@@ -1,4 +1,6 @@
+@import "../styles.scss";
+
 .container {
   position: relative;
-  background-color: var(--cor-background);
+  background-color: $background-color;
 }

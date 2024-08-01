@@ -1,5 +1,7 @@
+@import "../../../styles.scss";
+
 nav {
-  background-color: var(--cor-background);
+  background-color: $background-color;
   display: flex;
   justify-content: space-between;
   padding: 2rem 4rem;
